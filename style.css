@@ -9,15 +9,10 @@ header{
 }
 
 #profile-photo{
-    position: relative;
     width: 30%;
     height: 100%;
     display: inline-block;
     background-color: #2B2C2C;
-    background-image: url(images/profile-photo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 35% 75%;
 }
 
 #profile-information{
@@ -29,11 +24,7 @@ header{
     font: 60% Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*
 #profile-photo img{
     width: 35%;
     height: 75%;
-    margin: 12.5% auto auto auto;
-    display: block;
-
-}*/
+}
