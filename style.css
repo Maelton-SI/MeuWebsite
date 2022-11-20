@@ -12,7 +12,7 @@ header{
     position: relative;
     width: 30%;
     height: 100%;
-    display: inline-block;
+    display: inline-block; /*Modificar isso depois, de inline-block para flx*/
     background-color: #2B2C2C;
     background-image: url(images/profile-photo.png);
     background-repeat: no-repeat;
@@ -23,17 +23,30 @@ header{
 #profile-information{
     width: 70%;
     height: 100%;
-    display: block;
+    display: block; /*Modificar isso depois, de inline-block para flx*/
     float: right;
     background-color: #2D2E2E;
     font: 60% Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/*
-#profile-photo img{
-    width: 35%;
-    height: 75%;
-    margin: 12.5% auto auto auto;
-    display: block;
+section.main{
+    height: 70%;
+    background-color: aquamarine;
+}
 
+section.content{
+    height: calc(100%/8);
+}
+
+/*
+Não está funcionando:
+
+aside{
+    width: 30%;
+    background-color: beige;
+}
+
+article{
+    width: 70%;
+    background-color: peru;
 }*/
